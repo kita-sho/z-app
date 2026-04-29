@@ -1,17 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+学習用最終的には自宅サーバーにデプロイする
 
 * Ruby version
-
+3.4.2
 * System dependencies
+なし
 
 * Configuration
 
 * Database creation
+MySQLを使用
 
 * Database initialization
 
