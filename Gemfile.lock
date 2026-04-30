@@ -94,6 +94,7 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     diff-lcs (1.6.2)
+    drb (2.2.3)
     erb (6.0.4)
     erubi (1.13.1)
     ffi (1.17.4-aarch64-linux-gnu)
@@ -160,7 +161,9 @@ GEM
     method_source (1.1.0)
     mini_mime (1.1.5)
     mini_portile2 (2.8.9)
-    minitest (5.18.0)
+    minitest (6.0.5)
+      drb (~> 2.0)
+      prism (~> 1.5)
     minitest-reporters (1.6.0)
       ansi
       builder
@@ -384,7 +387,7 @@ DEPENDENCIES
   importmap-rails (= 1.1.5)
   irb (= 1.10.0)
   jbuilder (= 2.11.5)
-  minitest (= 5.18.0)
+  minitest (= 6.0.5)
   minitest-reporters (= 1.6.0)
   puma (= 5.6.8)
   rails (= 7.0.4.3)
